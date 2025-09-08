@@ -1,0 +1,44 @@
+return {
+  'tpope/vim-fugitive',
+  cmd = { 'G', 'Git' },
+}
+-- COMMONLY USED COMMANDS
+-- :Gstatus - Show the git status window
+-- :Gdiff - Show the git diff for the current file
+-- :Gcommit - Commit changes with a message
+-- :Gpush - Push changes to the remote repository
+-- :Gpull - Pull changes from the remote repository
+-- :Glog - Show the git log for the current file
+-- :Gblame - Show the git blame for the current file
+-- :Gread - Discard changes in the current file
+-- :Gwrite - Stage changes in the current file
+-- :Gremove - Remove the current file from the repository
+-- :Gmove - Move or rename the current file in the repository
+-- :Gedit - Open a file from the repository
+-- :Ggrep - Search for a pattern in the repository
+-- :Gbranch - Show or create branches
+-- :Gmerge - Merge branches
+-- :Gstash - Stash changes
+-- :Gcheckout - Checkout a branch or commit
+-- :Gfetch - Fetch changes from the remote repository
+-- :Gremote - Manage remote repositories
+-- :Gconflict - Resolve merge conflicts
+-- :Gtags - Show git tags
+-- :Gcherry - Cherry-pick commits
+-- :Gbisect - Start a git bisect session
+-- :Gannotate - Annotate a file with git blame information
+-- :Glog - Show the git log for the current file or repository
+-- :Gwrite - Stage changes in the current file
+-- :Gread - Discard changes in the current file
+-- :Gremove - Remove the current file from the repository
+-- :Gmove - Move or rename the current file in the repository
+-- :Gvdiffsplit! - Open a vertical diff split for the current file
+-- :Ghdiffsplit! - Open a horizontal diff split for the current file
+-- :Gdiffsplit! - Open a diff split for the current file
+-- :Gclog - Show the git log for the current file with commit messages
+-- :Glog! - Show the git log for the current file with commit messages and diffs
+-- :Gblame! - Show the git blame for the current file with commit messages
+-- :Gedit! - Open a file from the repository in a new buffer
+-- :Ggrep! - Search for a pattern in the repository and open results in a new buffer
+-- :Gbranch! - Show or create branches and open in a new buffer
+-- :Gmerge! - Merge branches and open in a new buffer
