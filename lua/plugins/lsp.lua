@@ -214,6 +214,7 @@ return {
         docker_compose_language_service = {},
         cssls = {},
         jdtls = {},
+        omnisharp = {},
 
         lua_ls = {
           -- cmd = { ... },
