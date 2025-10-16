@@ -2,7 +2,7 @@
 
 # INSTALL COMMAND:
 ```sh
-git clone git@github.com:HellgrenR/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone git@github.com:HellgrenR/nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 ## Introduction
